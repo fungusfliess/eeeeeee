@@ -1,7 +1,7 @@
 # eeeeeee
 
 
-
+```
 import socket
 
 role = input("Host or client? ").lower()
@@ -35,3 +35,4 @@ elif role == "client":
 
     client.sendall("Hello from client\n".encode())
     client.close()
+```
